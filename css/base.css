@@ -3,3 +3,80 @@
 Brown Dog Manufacturing - Aug 2017
 Take existing Brown Dog Manufacturing static website and make it responsive
 */
+
+body {
+	background-color: #FFF;
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: 'Los Angeleno Grotesque';
+	src: url('LosAngelenoGrotesque.eot');
+	src: url('LosAngelenoGrotesque.eot?#iefix') format('embedded-opentype'),
+		url('LosAngelenoGrotesque.woff') format('woff'),
+		url('LosAngelenoGrotesque.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+#wrap {
+	width: 600px;
+	margin: 3em auto;
+}
+
+#wrap h1 {
+	height: 380px;
+	width: 600px;
+	text-indent: -9999px;
+	background: url(../images/brown-dog-logo.jpg) no-repeat;
+	margin: 0;
+}
+
+#address-wrap {
+	width: 95%;
+	margin: 3em auto;
+}
+
+p {
+	text-align: justify;
+	font-size: 1.7em;
+	line-height: .4em;
+	font-family: 'Los Angeleno Grotesque';
+	font-weight: 500;
+	font-style: normal;
+}
+
+p:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+#line-1, #line-2, #line-3 {
+	margin: .5em auto;
+}
+
+#line-1 {
+	max-width: 90%;
+}
+
+#line-2 {
+	max-width: 83%;
+}
+
+#line-3 {
+	max-width: 62%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#foo {
+	margin-left: 5%;
+}
+
+a {
+	color: #000;
+}
